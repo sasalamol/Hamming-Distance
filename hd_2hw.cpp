@@ -22,7 +22,7 @@ uint64_t HW(uint64_t x)
 int main(){
   int x = 55;
   int y = 55;
-  int ct = HW(x ^ y); //HD = HW(x XOR y)
+  int ct = HW(x ^ y); //HD(x,y)= HW(x XOR y) //samesies
   std::cout<<"inputs: "<<x<<", "<<y;
   std::cout<<"\nHD: "<<ct;
  }
